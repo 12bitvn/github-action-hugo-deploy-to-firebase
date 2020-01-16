@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v1
       with:
         submodules: true
-    - uses: pulimento/github-action-hugo-deploy-to-firebase@master
+    - uses: 12bitvn/github-action-hugo-deploy-to-firebase@master
       with:
         firebase-token: ${{ secrets.secret_firebase_token }}
 ````
